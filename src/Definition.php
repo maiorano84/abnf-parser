@@ -17,4 +17,9 @@ final class Definition
         $this->grammar = $grammar;
         $this->rule = $rule;
     }
+
+    public function isCoreDefinition(): bool
+    {
+        return $this->name === strtoupper($this->name);
+    }
 }

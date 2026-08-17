@@ -7,7 +7,7 @@ use Maiorano84\ABNF\Operators\OperatorInterface;
 
 final class Parser
 {
-    private array $definitions;
+    /* private array $definitions;
     private array $operators;
 
     public function __construct(array $definitions = [], array $operators = [])
@@ -60,5 +60,5 @@ final class Parser
     {
         $this->operators = [];
         $this->addOperators($operators);
-    }
+    } */
 }

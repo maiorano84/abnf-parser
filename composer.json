@@ -1,0 +1,25 @@
+{
+  "name": "maiorano84/abnf-parser",
+  "description": "A simple ABNF Parsing Library",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Matt Maiorano",
+      "email": "maiorano84@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^8.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Maiorano\\ABNF\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Maiorano\\ABNF\\Tests\\": "tests/"
+    }
+  }
+}
